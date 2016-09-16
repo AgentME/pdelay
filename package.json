@@ -1,6 +1,6 @@
 {
   "name": "pdelay",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Returns a Promise that resolves with a given value after a set amount of time",
   "main": "js/index.js",
   "scripts": {
