@@ -1,7 +1,6 @@
 # pdelay
 
-[![Circle CI](https://circleci.com/gh/AgentME/pdelay.svg?style=shield)](https://circleci.com/gh/AgentME/pdelay)
-[![npm version](https://badge.fury.io/js/pdelay.svg)](https://badge.fury.io/js/pdelay)
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/AgentME/pdelay/blob/master/LICENSE.txt) [![npm version](https://img.shields.io/npm/v/pdelay.svg?style=flat)](https://www.npmjs.com/package/pdelay) [![CircleCI Status](https://circleci.com/gh/AgentME/pdelay.svg?style=shield)](https://circleci.com/gh/AgentME/pdelay)
 
 ```
 pdelay(time, value)
