@@ -41,7 +41,12 @@ describe('delay', function() {
   });
 
   it('can pass rejection', function() {
-    return delay(10, Promise.reject({a: 456})).then(x => {
+    const p = Promise.reject({a: 456});
+
+    // catch error so node doesn't detect it as an unhandled promise
+    p.catch(() => {});
+
+    return delay(10, p).then(x => {
       throw new Error('Should not happen');
     }, err => {
       assert.deepStrictEqual(err, {a: 456});
