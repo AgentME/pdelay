@@ -1,4 +1,4 @@
-import pdelay from 'pdelay';
+import pdelay from '../..';
 
 // This file isn't executed. Typescript just checks it for type safety.
 async function foo() {
