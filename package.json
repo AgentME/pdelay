@@ -1,6 +1,6 @@
 {
   "name": "pdelay",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Returns a Promise that resolves with a given value after a set amount of time",
   "main": "js/index.js",
   "types": "index.d.ts",
@@ -48,6 +48,8 @@
     "typescript": "^3.0.3"
   },
   "greenkeeper": {
-    "ignore": ["flow-bin"]
+    "ignore": [
+      "flow-bin"
+    ]
   }
 }
